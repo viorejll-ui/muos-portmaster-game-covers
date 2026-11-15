@@ -1,10 +1,20 @@
 # PortMaster Game Covers for muOS
 
-Cover images for **23 PortMaster game and application launchers** in the muOS Ports menu. Tested on an **Anbernic RG40XX H running muOS**.
+Cover images for **23 PortMaster game and application launchers** in the muOS Ports menu.
 
 [**Download artwork ZIP**](muOS_Ports_23_images.zip?raw=true)
 
 ![Preview of all 23 images](preview.jpg)
+
+## Tested configuration
+
+| Component | Version / Device |
+| --- | --- |
+| Device | Anbernic RG40XX H |
+| muOS | 2606.0 Andromeda |
+| PortMaster | 2026.11.12-1059 |
+
+These are the tested versions; compatibility with other setups has not been verified.
 
 ## Installation
 

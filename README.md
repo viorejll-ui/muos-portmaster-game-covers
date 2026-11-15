@@ -1,20 +1,10 @@
 # PortMaster Game Covers for muOS
 
-Cover images for **23 PortMaster game and application launchers** in the muOS Ports menu.
+Cover images for **23 PortMaster game and application launchers** in the muOS Ports menu. Tested on an **Anbernic RG40XX H running muOS**.
 
 [**Download artwork ZIP**](muOS_Ports_23_images.zip?raw=true)
 
-![Preview of all 23 images](preview.jpg)
-
-## Tested configuration
-
-| Component | Version / Device |
-| --- | --- |
-| Device | Anbernic RG40XX H |
-| muOS | 2606.0 Andromeda |
-| PortMaster | 2026.11.12-1059 |
-
-These are the tested versions; compatibility with other setups has not been verified.
+![Preview of all 23 images](assets/preview.jpg)
 
 ## Installation
 
@@ -66,13 +56,16 @@ If you renamed a launcher, rename its PNG to match.
 - Switchfin
 - Unreal Tournament 99
 
-## Appearance and limitations
+## Artwork and display
 
-- This is a collected artwork pack, not a set of newly drawn images.
-- Some images combine a screenshot, a 3D box, a disc and a logo. Others are banners or screenshots; the pack does not have one uniform style.
-- Quake II: Capture The Flag, Ground Zero, The Reckoning and Zaero currently use the same artwork as Quake II.
-- Images are PNG files on a 320 × 240 canvas. How large they appear depends on your muOS theme and artwork settings.
-- Tested in one user's setup; other versions and themes have not been verified.
+These custom covers were generated with **ChatGPT's image-generation tools under the creative direction of viorejll-ui**. I selected the references, guided the composition and style, and requested revisions to the characters, frames, logos, boxes and discs.
+
+The collection uses a coordinated framed-cover style. Games generally include a box and disc; applications use a frame without physical media. Quake II expansions have their own themed artwork.
+
+- The device-ready PNG files use a **320 × 240 canvas**, with transparency preserved.
+- Use the resized files for the handheld. Full-resolution artwork can appear cropped in the menu.
+- Display size also depends on your muOS theme and artwork settings.
+- Tested on an Anbernic RG40XX H running muOS; other devices and themes have not been verified.
 
 ## Troubleshooting
 
@@ -83,16 +76,23 @@ If an image does not appear:
 3. Clear any search text in the web file manager: its filter can hide the folder contents.
 4. Leave and reopen the Ports list.
 
-## Sources and credits
+## Creation, inspiration and credits
 
-| Entries | Image source |
+**Creative direction and reference selection:** [viorejll-ui](https://github.com/viorejll-ui)  
+**Image generation and revisions:** ChatGPT, following my instructions and feedback.
+
+The visual inspiration came from the games' original cover art, logos, characters and screenshots, together with classic PC game boxes and printed CDs. The aim was to turn those references into a coordinated collection for my handheld's Ports menu.
+
+The following sources informed the initial reference collection; they are inspiration and reference credits, rather than the creators of these generated covers:
+
+| References | Source |
 | --- | --- |
-| Battle for Wesnoth, DevilutionX, Flynn: Son of Crimson, Half-Life, Max Payne, Moonlight New, NetSurf, Flip Clock, Switchfin, Quake, Quake II and Quake III | [PortMaster-New](https://github.com/PortsMaster/PortMaster-New/tree/main/ports) |
-| Grand Theft Auto III and Vice City | [nosro1/ports](https://github.com/nosro1/ports/tree/main/images) |
-| Halo | [Halo CE handheld port](https://github.com/kirklandsig/halo-ce-anbernic-rg35xx) — `port/knulli/portmaster/screenshot.png` |
-| Grand Theft Auto: San Andreas and Unreal Tournament | Steam store artwork, app IDs 12120 and 13240 |
-| Fheroes2 and Stardew Valley | Existing artwork supplied from the tested handheld; original artist attribution is not known |
+| PortMaster game and application images | [PortMaster-New](https://github.com/PortsMaster/PortMaster-New/tree/main/ports) |
+| Grand Theft Auto III and Vice City reference images | [nosro1/ports](https://github.com/nosro1/ports/tree/main/images) |
+| Halo handheld-port reference | [Halo CE handheld port](https://github.com/kirklandsig/halo-ce-anbernic-rg35xx) |
+| Grand Theft Auto: San Andreas and Unreal Tournament references | Steam store artwork (app IDs 12120 and 13240) |
+| Additional visual references | Screenshots and artwork I supplied during the design process |
 
-Game artwork and trademarks belong to their respective owners. No ownership of the original artwork is claimed, and no blanket license is granted for third-party images. This repository contains images and installation instructions only; it includes no game data.
+These are AI-generated fan covers, not official packaging or original in-game screenshots. Game names, characters, logos and trademarks belong to their respective owners. No ownership of those underlying properties is claimed, and this repository does not grant a license to them.
 
-This is an unofficial community collection, not an official muOS or PortMaster release.
+This repository contains artwork and installation instructions only; it includes no game data. It is an unofficial community project, not an official muOS or PortMaster release.

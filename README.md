@@ -4,7 +4,7 @@ Cover images for **23 PortMaster game and application launchers** in the muOS Po
 
 [**Download artwork ZIP**](muOS_Ports_23_images.zip?raw=true)
 
-![Preview of all 23 images](PortMaster_Before_After.jpg)
+![PortMaster — Custom Covers Collection](<PortMaster — Custom Covers Collection.jpg>)
 
 ## Installation
 
